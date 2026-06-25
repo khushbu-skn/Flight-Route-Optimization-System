@@ -1,0 +1,23 @@
+{
+  "name": "airplane-flight-optimizer",
+  "version": "1.0.0",
+  "description": "Airplane Flight Optimizer - Full Stack Application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd web-app && npm start",
+    "build": "cd web-app && npm install && npm run build",
+    "vercel-build": "cd web-app && npm install && npm run build"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
